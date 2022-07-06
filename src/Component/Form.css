@@ -1,0 +1,36 @@
+.formContainer{
+    background-color: aqua;
+    margin: auto;
+    margin-top: 5rem;
+    width:  50rem;
+    min-height: 40rem;
+}
+ .formContainer .formdata {
+   padding: 4rem;
+}
+.formContainer .formdata .field {
+    margin-top: 3rem;
+}
+.formContainer .formdata .field label {
+    margin-right: 1rem;
+    font-size: 1.7rem;
+}
+.formContainer .formdata .field input {
+    height: 4rem;
+    border-radius: 0.5rem;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    width: 25rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+button{
+    width: 8rem;
+    cursor: pointer;
+    height: 4rem;
+    border-radius: 0.5rem;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
