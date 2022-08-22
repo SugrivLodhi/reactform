@@ -12,6 +12,8 @@ const Form = () => {
   const getUserData = (event) =>{
        name =event.target.name;
        value =event.target.value ; 
+       console.log({[name]:value});
+       console.log({name:value});
        setUser({...user,[name] :value}) 
   } 
 
