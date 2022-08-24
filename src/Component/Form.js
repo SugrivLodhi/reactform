@@ -81,14 +81,14 @@ const Form = () => {
           </div>
           <div className="field">
             <label htmlFor="">Password</label>
-                                          <input
-                                          type="text"
-                                          name="password"
-                                          value={user.password}
-                                          onChange={getUserData}
-                                          placeholder="password"
-                                          required
-                                              />
+                                                       <input
+                                                      type="text"
+                                                       name="password"
+                                                        value={user.password}
+                                                        onChange={getUserData}
+                                                       placeholder="password"
+                                                         required
+                                                          />
           </div>
           <div className="field">
             <label htmlFor="">Message</label>
