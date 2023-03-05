@@ -1,38 +1,16 @@
 
 import './App.css'
-import SignInForm from './Component/FormVlidationWithYup';
-
-
-
-
-
+import CounterOne from './HOC/CounterOne';
+import CounterTwo from './HOC/CounterTwo';
 
 function App() {
   return (
-      <SignInForm/>
+      <>
+      <CounterOne/>
+      <CounterTwo/>
+      </>
   );
 }
 
 export default App;
 
- const OptionalChaan = () => {
-  const myName = {
-      a :{
-        b :{
-           c:'Sugriv' 
-        }
-      }
-  }  
-  return (
-    <>
-    <div>OptionalChaan</div>
-    {myName?.a?.b?.c}
-    <OurData/>
-    </>
-  )
-}
-const OurData =() =>{
-  return(
-    <h1>Hello I am data</h1>
-  )
-}
